@@ -1,0 +1,2 @@
+#!/bin/bash
+tr -dc [=c=] | tr -dc [=C=]
