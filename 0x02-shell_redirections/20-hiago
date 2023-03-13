@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -dc [=c=] | tr -dc [=C=]
+tr -d "Cc"
