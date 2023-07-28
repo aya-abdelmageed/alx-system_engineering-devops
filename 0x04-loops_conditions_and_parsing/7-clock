@@ -4,14 +4,14 @@
 #display minutes from 1 to 59
 
 HOURS=0
-while [ $HOURS -lt 13 ]
+while [ $HOURS -le 12 ]
 do
     echo 
 	"Hour: $HOURS"
     MINUTES=1
-    while [ $MINUTES -lt 60 ]
+    while [ $MINUTES -le 59 ]
     do
-        echo $MINUTES
+        echo "$MINUTES"
 	(( MINUTES++ ))
     done
     (( HOURS++ ))
